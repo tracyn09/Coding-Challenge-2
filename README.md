@@ -1,1 +1,1 @@
-# Coding-Challenge-2
+Initial commit - Objects and Arrays Challenge Setup
