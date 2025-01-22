@@ -1,4 +1,4 @@
-//Task 1
+// Task 1
 let products = ["MacBook Pro", "Airpods", "Airpod Max", "IPad Pro", "Apple Pencil"];
 console.log(products);
 
@@ -10,13 +10,18 @@ console.log(products);
 let removed = products.pop();
 console.log(removed);
 
-//Updated Product List
+// Updated Product List
 console.log(products);
 
-//Task 2
+// Task 2
+let scores = ["80", "76", "90", "89", "94"];
+scores = scores.map(score => Number(score)); // Ensuring scores are viewed as Numbers
+scores[1] = 79;
+console.log(scores);
 
-//Task 3
+// Averaging Array
+let averageScore = scores.reduce((sum, num) => sum + num + 0)/ scores.length;
 
-//Task 4
-
-//Task 5
+// Logging Updated Array and Average Score
+console.log("Scores:", scores);
+console.log("Average Score: ", averageScore); 
