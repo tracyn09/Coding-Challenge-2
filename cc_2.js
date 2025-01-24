@@ -33,3 +33,8 @@ employee[2] = "Accounting" // Updating Dept
 employee.push("Auditor") // Adding New Property
 console.log(employee);
 
+// Task 4
+let customers = [ ["Sandy", "san.hoover@gmail.com", "purchase amount: 85"], ["Andrew", "drew.mc@icloud.com", "purchase amount: 79"], ["Dereck", "dereck.ll@gmail.com", "purchase amount: 60"] ]
+customers.push(["Molly", "lo.sendra@gmail.com", "purchase amount: 89"])
+console.log(customers);
+
