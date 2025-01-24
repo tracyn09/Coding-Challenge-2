@@ -38,3 +38,14 @@ let customers = [ ["Sandy", "san.hoover@gmail.com", "purchase amount: 85"], ["An
 customers.push(["Molly", "lo.sendra@gmail.com", "purchase amount: 89"])
 console.log(customers);
 
+//Task 5
+let order = [ [orderID = "10589"], [customerName = "Henry Whalpool"], [subtotal = 89.78]]
+let taxRate= .10
+function calculatedTax(subtotal, taxRate) {return subtotal * taxRate};
+let taxAmount = calculatedTax(subtotal, taxRate);
+
+console.log('Order ID:', orderID)
+console.log('Customer Name:', customerName)
+console.log('Subtotal: $',subtotal)
+console.log('Tax Amount: $',taxAmount);
+
